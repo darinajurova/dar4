@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fffcf6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80vw;
+    margin: 30px auto;
+    overflow: hidden;
+}
+header {
+    background-color: #a23645;
+    overflow: hidden;
+    padding: 0 10vw;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+main {
+    margin-top: 50px;
+}
+.menu-item {
+    display: inline-block;
+    padding: 10px;
+}
+.logo, nav {
+    float: left;
+}
+nav {
+    margin-left: 30px;
+    font-size: 14px;
+}
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-item:hover {
+    background-color: #831f2c;
+}
+.logo {
+    margin-top: 9px;
+}
+.image-big {
+    width: 170px;
+    height: 227px;
+    margin: 20px;
+}
+article {
+    width: 70%;
+    float: left;
+}
+aside {
+    float: right;
+    width: 25%;
+    background-color: #e2e2e2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table {
+    text-align: left;
+    padding: 0 20px;
+    font-size: 12px;
+}
+th,td {
+padding: 5px;
+vertical-align: top;
+}
+h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+address {
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 10px;
+}
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+figure {
+width: 15%;
+display: inline-block;
+text-align: center;
+}
+figure img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #c1c1c1;
+    border-radius: 2px;
+    padding: 10px;
+}
